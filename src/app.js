@@ -7,7 +7,7 @@ const path = require('path')
 const PORT = 3000;
 
 
-app.get('/home',(req,res)=>{
+app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'views/index.html'))
 })
 
